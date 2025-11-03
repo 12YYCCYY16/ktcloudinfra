@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: ktcloudctn-blue
-        image: brian24/ktcloudinfra:blue
+        image: chanyoungyoon/ktcloudinfra:blue
         resources:
           limits:    # limits(최대)/requests(최소보장)
             memory: "32Mi"
